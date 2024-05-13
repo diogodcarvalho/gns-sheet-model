@@ -1,0 +1,9 @@
+n_messages: 5
+linear_enconder: true
+linear_decoder: true
+h_dim: 128
+mlp_layers: 2
+mlp_activate_final: false
+residual_connection: false
+node_update_use_sent_messages: false
+reflection_equivariance: false

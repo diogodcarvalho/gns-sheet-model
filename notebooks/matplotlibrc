@@ -1,0 +1,56 @@
+# Set the backend, otherwise the figure won't show up. Note that this will
+# depend on your system setup; to see which backend is the default,
+# run "matplotlib.get_backend()" in the Python interpreter.
+backend                 :  Qt5Agg
+
+# Increase the default ouput DPI, and change the file type from png to pdf
+savefig.format          :   pdf
+savefig.dpi             :   300
+figure.dpi              :   100
+
+# Simplify paths by removing "invisible" points, useful for reducing
+# file size when plotting a large number of points
+path.simplify           :   True
+
+# Instead of individually increasing font sizes, point sizes, and line
+# thicknesses, I found it easier to just decrease the figure size so
+# that the line weights of various components still agree
+figure.figsize          :   7,5
+
+# Changing plot fonts to match latex
+font.family        : serif
+font.serif         : Computer Modern Roman
+font.sans-serif    : Computer Modern Sans Serif
+text.usetex        : true
+font.size          : 20
+
+# Increase the tick-mark lengths (defaults are 4 and 2)
+xtick.major.size        :   8
+ytick.major.size        :   8
+xtick.minor.size        :   4
+ytick.minor.size        :   4
+
+# Increase the tick-mark widths as well as the widths of lines
+# used to draw marker edges to be consistent with the other figure
+# linewidths (defaults are all 0.5)
+xtick.top             :    true
+xtick.direction        :   in
+ytick.right            :   true
+ytick.direction        :   in
+
+xtick.major.width       :   1
+ytick.major.width       :   1
+xtick.minor.width       :   1
+ytick.minor.width       :   1
+xtick.minor.visible     :   True
+ytick.minor.visible     :   True
+lines.markeredgewidth   :   1
+
+# Have the legend only plot one point instead of two
+# Frame on with no line around + alpha
+# Reduce the space between the point and the label
+legend.numpoints        :   1
+legend.handletextpad    :   0.3
+legend.frameon          :   True
+legend.edgecolor        :   white
+legend.framealpha       :   0.7

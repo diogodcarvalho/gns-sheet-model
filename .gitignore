@@ -1,0 +1,22 @@
+# dirs
+data
+models
+
+# file types
+*.zip
+*.png
+*.gif
+*.mp4
+*.pkl
+*.pdf
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+**-Copy*.ipynb
+notebooks/**.ipynb

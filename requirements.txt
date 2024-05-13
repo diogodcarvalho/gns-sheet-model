@@ -1,0 +1,9 @@
+jraph==0.0.6.dev0
+dm_haiku==0.0.9
+jupyter
+matplotlib==3.5.1
+numpy==1.24.3
+pandas==1.5.3
+PyYAML==6.0.1
+scipy==1.11.3
+tqdm==4.57.0
