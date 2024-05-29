@@ -165,13 +165,18 @@ We would also like to thank [@OsAmaro](https://github.com/OsAmaro) for beta-test
 
 ### Citation
 
-If you use the code, consider citing our [paper](https://arxiv.org/abs/2310.17646):
+If you use the code, consider citing our [paper](https://iopscience.iop.org/article/10.1088/2632-2153/ad4ba6):
 
 ```
-@article{carvalho2023graph,
-  title={Learning the dynamics of a one-dimensional plasma model with graph neural networks},
-  author={Carvalho, Diogo D and Ferreira, Diogo R and Silva, Luis O},
-  journal={arXiv preprint arXiv:2310.17646},
-  year={2023}
+@article{carvalho2024learning,
+  title = {Learning the dynamics of a one-dimensional plasma model with graph neural networks},
+  author = {Diogo D Carvalho and Diogo R Ferreira and Luís O Silva},
+  journal = {Machine Learning: Science and Technology},
+  volume = {5},
+  number = {2},
+  pages = {025048},
+  year = {2024},
+  doi = {10.1088/2632-2153/ad4ba6},
+  url = {https://dx.doi.org/10.1088/2632-2153/ad4ba6},
 }
 ```
